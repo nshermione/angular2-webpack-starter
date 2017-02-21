@@ -4,14 +4,19 @@
 - NodeJS is installed (https://nodejs.org/en/) 
 
 ## Install dependencies
-`npm install'
+`npm install`
 
 ## Usage
+
+
 To run development
+
 `npm run start`
 
-To build production  
+To build production
+
 `npm run build`
+
 
 ## License
 
