@@ -33,8 +33,7 @@ module.exports = webpackMerge(commonConfig, {
         new ExtractTextPlugin('[name].[hash].css'),
         new webpack.DefinePlugin({
             'process.env': {
-                'ENV': JSON.stringify(ENV),
-                'apiUrl': JSON.stringify('http://loto.api.thenhanh.com')
+                'ENV': JSON.stringify(ENV)
             }
         })
     ]
