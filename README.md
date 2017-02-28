@@ -1,3 +1,4 @@
+![tranvisci](https://travis-ci.org/nshermione/angular2-webpack-starter.svg?branch=master "")
 # angular2-webpack-starter
 
 ## Requirements
