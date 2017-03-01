@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {Logger, LogLevel} from "./services/logger.service";
 
 @Component({
     selector: 'app',
@@ -12,4 +13,11 @@ import {Component} from '@angular/core';
     <footer></footer>
     `
 })
-export class AppComponent {}
+export class AppComponent {
+    constructor(
+        private logger:Logger
+    )
+    {
+        this.logger.setLogLevel(LogLevel.DEBUG);
+    }
+}

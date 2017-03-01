@@ -39,6 +39,7 @@
     "html-webpack-plugin": "^2.24.1",
     "less": "^2.7.1",
     "less-loader": "^2.2.3",
+    "loglevel": "^1.4.1",
     "node-sass": "^4.1.1",
     "rimraf": "^2.5.4",
     "sass-loader": "^4.1.0",

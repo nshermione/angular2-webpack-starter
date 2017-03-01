@@ -4,6 +4,8 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 import {Header} from "./components/header/header";
 import {Footer} from "./components/footer/footer";
+import {UserService} from "./services/user.service";
+import {Logger} from "./services/logger.service";
 
 @NgModule({
     imports: [
@@ -13,6 +15,10 @@ import {Footer} from "./components/footer/footer";
         AppComponent,
         Header,
         Footer
+    ],
+    providers: [
+        UserService,
+        Logger
     ],
     bootstrap: [AppComponent]
 })
