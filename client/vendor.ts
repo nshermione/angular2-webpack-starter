@@ -12,6 +12,7 @@ import 'rxjs';
 // Other vendors for example jQuery, Lodash or Bootstrap
 // You can import js, ts, css, sass, ...
 
-import './assets/scss/app.scss';
-
 import 'bootstrap';
+import 'bootstrap/less/bootstrap.less';
+
+import './assets/scss/app.scss';

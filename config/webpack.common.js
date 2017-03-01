@@ -42,7 +42,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                loader: ExtractTextPlugin.extract(['css?sourceMap'])
+                loaders: ['to-string-loader', 'css-loader']
             },
             {
                 test: /\.less$/,
